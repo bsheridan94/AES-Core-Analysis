@@ -1,0 +1,79 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : design
+Design : aes_cipher_top
+Version: M-2016.12-SP1
+Date   : Wed Apr 12 10:37:45 2017
+****************************************
+
+Design allows ideal nets on clock nets.
+
+Library(s) Used:
+
+    PnomV180T025_STD_CELL_7RF (File: /mnt/class_data/ecec571-f2015/IBM_CMOS7RF_p18u/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/synopsys/nom/PnomV180T025_STD_CELL_7RF.db)
+
+Local Link Library:
+
+    {PnomV180T025_STD_CELL_7RF.db}
+
+Flip-Flop Types:
+
+    No flip-flop types specified.
+
+Latch Types:
+
+    No latch types specified.
+
+Operating Conditions:
+
+
+    Operating Condition Name : PnomV180T025_STD_CELL_7RF
+    Library : PnomV180T025_STD_CELL_7RF
+    Process :   1.00
+    Temperature :  25.00
+    Voltage :   1.80
+    Interconnect Model : balanced_tree
+
+Wire Loading Model:
+
+    Selected automatically from the total cell area.
+
+Name           :   450KCELLS_5MZC4P
+Location       :   PnomV180T025_STD_CELL_7RF
+Resistance     :   0.228016
+Capacitance    :   0.25184
+Area           :   0
+Slope          :   0.056
+Fanout   Length   Points Average Cap Std Deviation
+--------------------------------------------------------------
+     1     0.06
+
+
+
+Wire Loading Model Mode: enclosed.
+
+Timing Ranges:
+
+    No timing ranges specified.
+
+Pin Input Delays:
+
+    None specified.
+
+Pin Output Delays:
+
+    None specified.
+
+Disabled Timing Arcs:
+
+    No arcs disabled.
+
+Required Licenses:
+
+    DesignWare
+
+Design Parameters:
+
+    None specified.
+1

@@ -1,0 +1,2880 @@
+ 
+****************************************
+Report : cell
+Design : aes_cipher_top
+Version: M-2016.12-SP1
+Date   : Wed Apr 12 10:37:45 2017
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U1032                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1033                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1034                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1035                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1036                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1037                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1038                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1039                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1040                     INVERT_E        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U1041                     INVERT_E        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U1042                     INVERT_L        PnomV180T025_STD_CELL_7RF
+                                                          18.816000 
+U1043                     INVERT_K        PnomV180T025_STD_CELL_7RF
+                                                          18.816000 
+U1044                     NAND2_C         PnomV180T025_STD_CELL_7RF
+                                                          15.052800 
+U1045                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1046                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1047                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1048                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1049                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1050                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1051                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1052                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1053                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1054                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1055                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1056                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1057                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1058                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1059                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1060                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1061                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1062                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1063                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1064                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1065                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1066                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1067                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1068                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1069                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1070                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1071                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1072                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1073                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1074                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1075                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1076                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1077                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1078                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1079                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1080                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1081                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1082                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1083                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1084                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1085                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1086                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1087                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1088                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1089                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1090                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1091                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1092                     INVERT_B        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U1093                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1094                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1095                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1096                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1097                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1098                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1099                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1100                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1101                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1102                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1103                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1104                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1105                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1106                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1107                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1108                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1109                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1110                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1111                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1112                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1113                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1114                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1115                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1116                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1117                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1118                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1119                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1120                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1121                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1122                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1123                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1124                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1125                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1126                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1127                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1128                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1129                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1130                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1131                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1132                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1133                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1134                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1135                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1136                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1137                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1138                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1139                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1140                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1141                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1142                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1143                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1144                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1145                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1146                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1147                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1148                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1149                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1150                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1151                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1152                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1153                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1154                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1155                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1156                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1157                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1158                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1159                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1160                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1161                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1162                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1163                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1164                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1165                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1166                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1167                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1168                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1169                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1170                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1171                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1172                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1173                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1174                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1175                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1176                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1177                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1178                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1179                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1180                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1181                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1182                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1183                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1184                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1185                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1186                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1187                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1188                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1189                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1190                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1191                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1192                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1193                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1194                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1195                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1196                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1197                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1198                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1199                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1200                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1201                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1202                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1203                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1204                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1205                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1206                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1207                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1208                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1209                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1210                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1211                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1212                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1213                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1214                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1215                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1216                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1217                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1218                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1219                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1220                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1221                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1222                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1223                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1224                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1225                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1226                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1227                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1228                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1229                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1230                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1231                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1232                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1233                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1234                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1235                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1236                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1237                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1238                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1239                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1240                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1241                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1242                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1243                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1244                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1245                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1246                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1247                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1248                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1249                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1250                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1251                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1252                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1253                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1254                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1255                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1256                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1257                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1258                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1259                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1260                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1261                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1262                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1263                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1264                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1265                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1266                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1267                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1268                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1269                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1270                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1271                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1272                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1273                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1274                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1275                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1276                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1277                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1278                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1279                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1280                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1281                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1282                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1283                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1284                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1285                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1286                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1287                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1288                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1289                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1290                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1291                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1292                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1293                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1294                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1295                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1296                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1297                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1298                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1299                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1300                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1301                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1302                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1303                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1304                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1305                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1306                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1307                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1308                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1309                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1310                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1311                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1312                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1313                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1314                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1315                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1316                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1317                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1318                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1319                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1320                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1321                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1322                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1323                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1324                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1325                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1326                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1327                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1328                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1329                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1330                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1331                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1332                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1333                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1334                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1335                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1336                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1337                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1338                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1339                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1340                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1341                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1342                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1343                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1344                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1345                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1346                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1347                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1348                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1349                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1350                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1351                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1352                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1353                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1354                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1355                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1356                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1357                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1358                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1359                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1360                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1361                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1362                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1363                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1364                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1365                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1366                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1367                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1368                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1369                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1370                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1371                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1372                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1373                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1374                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1375                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1376                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1377                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1378                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1379                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1380                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1381                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1382                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1383                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1384                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1385                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1386                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1387                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1388                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1389                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1390                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1391                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1392                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1393                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1394                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1395                     OR2_D           PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1396                     BUFFER_I        PnomV180T025_STD_CELL_7RF
+                                                          18.816000 
+U1397                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1398                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1399                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1400                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1401                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1402                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1403                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1404                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1405                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1406                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1407                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1408                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1409                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1410                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1411                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1412                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1413                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1414                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1415                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1416                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1417                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1418                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1419                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1420                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1421                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1422                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1423                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1424                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1425                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1426                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1427                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1428                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1429                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1430                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1431                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1432                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1433                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1434                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1435                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1436                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1437                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1438                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1439                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1440                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1441                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1442                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1443                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1444                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1445                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1446                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1447                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1448                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1449                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1450                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1451                     NOR4_A          PnomV180T025_STD_CELL_7RF
+                                                          18.816000 
+U1452                     INVERT_I        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U1453                     NAND2_C         PnomV180T025_STD_CELL_7RF
+                                                          15.052800 
+U1454                     AOI21_C         PnomV180T025_STD_CELL_7RF
+                                                          18.816000 
+U1455                     NOR3_B          PnomV180T025_STD_CELL_7RF
+                                                          18.816000 
+U1456                     AOI21_C         PnomV180T025_STD_CELL_7RF
+                                                          18.816000 
+U1457                     AO22_B          PnomV180T025_STD_CELL_7RF
+                                                          30.105600 
+U1458                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1459                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1460                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1461                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1462                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1463                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1464                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1465                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1466                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1467                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1468                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1469                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1470                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1471                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1472                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1473                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1474                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1475                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1476                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1477                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1478                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1479                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1480                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1481                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1482                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1483                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1484                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1485                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1486                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1487                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1488                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1489                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1490                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1491                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1492                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1493                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1494                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1495                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1496                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1497                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1498                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1499                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1500                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1501                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1502                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1503                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1504                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1505                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1506                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1507                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1508                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1509                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1510                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1511                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1512                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1513                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1514                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1515                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1516                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1517                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1518                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1519                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1520                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1521                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1522                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1523                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1524                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1525                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1526                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1527                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1528                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1529                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1530                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1531                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1532                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1533                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1534                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1535                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1536                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1537                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1538                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1539                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1540                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1541                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1542                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1543                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1544                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1545                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1546                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1547                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1548                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1549                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1550                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1551                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1552                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1553                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1554                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1555                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1556                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1557                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1558                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1559                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1560                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1561                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1562                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1563                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1564                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1565                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1566                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1567                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1568                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1569                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1570                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1571                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1572                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1573                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1574                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1575                     INVERT_B        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U1576                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1577                     AOI22_B         PnomV180T025_STD_CELL_7RF
+                                                          22.579201 
+U1578                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1579                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1580                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1581                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1582                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1583                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1584                     INVERT_I        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U1585                     INVERT_I        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U1586                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1587                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1588                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1589                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1590                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1591                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1592                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1593                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1594                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1595                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1596                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1597                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1598                     INVERT_I        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U1599                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1600                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1601                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1602                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1603                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1604                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1605                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1606                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1607                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1608                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1609                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1610                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1611                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1612                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1613                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1614                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1615                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1616                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1617                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1618                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1619                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1620                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1621                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1622                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1623                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1624                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1625                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1626                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1627                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1628                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1629                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1630                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1631                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1632                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1633                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1634                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1635                     INVERT_I        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U1636                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1637                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1638                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1639                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1640                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1641                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1642                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1643                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1644                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1645                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1646                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1647                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1648                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1649                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1650                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1651                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1652                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1653                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1654                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1655                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1656                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1657                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1658                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1659                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1660                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1661                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1662                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1663                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1664                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1665                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1666                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1667                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1668                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1669                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1670                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1671                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1672                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1673                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1674                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1675                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1676                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1677                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1678                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1679                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1680                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1681                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1682                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1683                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1684                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1685                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1686                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1687                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1688                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1689                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1690                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1691                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1692                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1693                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1694                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1695                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1696                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1697                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1698                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1699                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1700                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1701                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1702                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1703                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1704                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1705                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1706                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1707                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1708                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1709                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1710                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1711                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1712                     XOR2_C          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1713                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1714                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1715                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1716                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1717                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1718                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1719                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1720                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1721                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1722                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1723                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1724                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1725                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1726                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1727                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1728                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1729                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1730                     OA21_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1731                     INVERT_B        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U1732                     NOR2_A          PnomV180T025_STD_CELL_7RF
+                                                          15.052800 
+U1733                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1734                     INVERT_B        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U1735                     OAI21_B         PnomV180T025_STD_CELL_7RF
+                                                          18.816000 
+U1736                     OAI21_B         PnomV180T025_STD_CELL_7RF
+                                                          18.816000 
+U1737                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1738                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1739                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1740                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1741                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1742                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1743                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1744                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1745                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1746                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1747                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1748                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1749                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1750                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1751                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1752                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1753                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1754                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1755                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1756                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1757                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1758                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1759                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1760                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1761                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1762                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1763                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1764                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1765                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1766                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1767                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1768                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1769                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1770                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1771                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1772                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1773                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1774                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1775                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1776                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1777                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1778                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1779                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1780                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1781                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1782                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1783                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1784                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1785                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1786                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1787                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1788                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1789                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1790                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1791                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1792                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1793                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1794                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1795                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1796                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1797                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1798                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1799                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1800                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1801                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1802                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1803                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1804                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1805                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1806                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1807                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1808                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1809                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1810                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1811                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1812                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1813                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1814                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1815                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1816                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1817                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1818                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1819                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1820                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1821                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1822                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1823                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1824                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1825                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1826                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1827                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1828                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1829                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1830                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1831                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1832                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1833                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1834                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1835                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1836                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1837                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1838                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1839                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1840                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1841                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1842                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1843                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1844                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1845                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1846                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1847                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1848                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1849                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1850                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1851                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1852                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1853                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1854                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1855                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1856                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1857                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1858                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1859                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1860                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1861                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1862                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1863                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1864                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1865                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1866                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1867                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1868                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1869                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1870                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1871                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1872                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1873                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1874                     MUX21I_B        PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1875                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1876                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1877                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1878                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1879                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1880                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1881                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1882                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1883                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1884                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1885                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1886                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1887                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1888                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1889                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1890                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1891                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1892                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1893                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1894                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1895                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1896                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1897                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1898                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1899                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1900                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1901                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1902                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1903                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1904                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1905                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1906                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1907                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1908                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1909                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1910                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1911                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1912                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1913                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1914                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1915                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1916                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1917                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1918                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1919                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1920                     XNOR2_B         PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1921                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1922                     XOR2_B          PnomV180T025_STD_CELL_7RF
+                                                          26.342400 
+U1923                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1924                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1925                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1926                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1927                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1928                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1929                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1930                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1931                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1932                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1933                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1934                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1935                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1936                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1937                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1938                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1939                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1940                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1941                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1942                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1943                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1944                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1945                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1946                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1947                     INVERT_I        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U1948                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1949                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1950                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1951                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1952                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1953                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1954                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1955                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1956                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1957                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1958                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1959                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1960                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1961                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1962                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1963                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1964                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1965                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1966                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1967                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1968                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1969                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1970                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1971                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1972                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1973                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1974                     INVERT_I        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U1975                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1976                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1977                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1978                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1979                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1980                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1981                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1982                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1983                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1984                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1985                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1986                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1987                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1988                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1989                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1990                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1991                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1992                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1993                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1994                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1995                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1996                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1997                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1998                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U1999                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2000                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2001                     INVERT_I        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U2002                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2003                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2004                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2005                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2006                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2007                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2008                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2009                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2010                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2011                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2012                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2013                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2014                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2015                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2016                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2017                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2018                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2019                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2020                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2021                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2022                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2023                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2024                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2025                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2026                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2027                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2028                     INVERT_I        PnomV180T025_STD_CELL_7RF
+                                                          11.289600 
+U2029                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2030                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2031                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2032                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2033                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2034                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2035                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2036                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2037                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2038                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2039                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2040                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2041                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2042                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2043                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2044                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2045                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2046                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2047                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2048                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2049                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2050                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2051                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2052                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2053                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+U2054                     MUX21_E         PnomV180T025_STD_CELL_7RF
+                                                          33.868801 
+dcnt_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+dcnt_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+dcnt_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+dcnt_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+done_reg                  DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+ld_r_reg                  DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa00_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa00_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa00_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa00_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa00_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa00_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa00_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa00_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa01_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa01_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa01_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa01_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa01_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa01_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa01_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa01_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa02_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa02_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa02_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa02_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa02_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa02_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa02_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa02_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa03_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa03_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa03_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa03_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa03_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa03_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa03_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa03_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa10_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa10_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa10_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa10_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa10_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa10_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa10_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa10_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa11_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa11_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa11_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa11_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa11_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa11_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa11_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa11_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa12_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa12_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa12_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa12_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa12_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa12_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa12_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa12_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa13_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa13_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa13_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa13_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa13_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa13_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa13_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa13_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa20_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa20_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa20_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa20_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa20_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa20_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa20_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa20_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa21_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa21_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa21_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa21_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa21_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa21_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa21_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa21_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa22_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa22_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa22_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa22_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa22_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa22_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa22_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa22_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa23_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa23_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa23_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa23_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa23_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa23_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa23_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa23_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa30_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa30_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa30_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa30_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa30_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa30_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa30_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa30_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa31_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa31_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa31_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa31_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa31_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa31_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa31_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa31_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa32_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa32_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa32_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa32_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa32_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa32_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa32_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa32_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa33_reg[0]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa33_reg[1]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa33_reg[2]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa33_reg[3]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa33_reg[4]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa33_reg[5]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa33_reg[6]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+sa33_reg[7]               DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[0]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[1]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[2]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[3]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[4]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[5]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[6]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[7]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[8]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[9]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[10]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[11]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[12]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[13]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[14]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[15]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[16]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[17]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[18]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[19]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[20]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[21]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[22]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[23]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[24]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[25]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[26]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[27]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[28]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[29]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[30]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[31]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[32]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[33]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[34]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[35]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[36]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[37]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[38]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[39]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[40]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[41]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[42]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[43]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[44]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[45]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[46]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[47]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[48]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[49]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[50]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[51]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[52]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[53]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[54]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[55]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[56]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[57]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[58]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[59]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[60]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[61]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[62]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[63]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[64]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[65]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[66]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[67]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[68]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[69]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[70]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[71]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[72]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[73]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[74]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[75]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[76]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[77]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[78]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[79]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[80]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[81]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[82]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[83]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[84]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[85]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[86]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[87]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[88]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[89]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[90]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[91]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[92]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[93]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[94]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[95]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[96]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[97]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[98]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[99]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[100]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[101]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[102]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[103]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[104]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[105]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[106]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[107]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[108]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[109]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[110]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[111]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[112]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[113]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[114]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[115]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[116]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[117]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[118]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[119]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[120]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[121]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[122]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[123]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[124]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[125]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[126]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_in_r_reg[127]        DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[0]           DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[1]           DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[2]           DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[3]           DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[4]           DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[5]           DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[6]           DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[7]           DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[8]           DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[9]           DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[10]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[11]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[12]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[13]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[14]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[15]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[16]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[17]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[18]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[19]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[20]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[21]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[22]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[23]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[24]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[25]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[26]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[27]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[28]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[29]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[30]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[31]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[32]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[33]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[34]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[35]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[36]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[37]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[38]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[39]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[40]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[41]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[42]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[43]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[44]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[45]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[46]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[47]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[48]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[49]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[50]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[51]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[52]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[53]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[54]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[55]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[56]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[57]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[58]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[59]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[60]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[61]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[62]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[63]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[64]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[65]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[66]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[67]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[68]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[69]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[70]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[71]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[72]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[73]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[74]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[75]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[76]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[77]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[78]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[79]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[80]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[81]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[82]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[83]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[84]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[85]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[86]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[87]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[88]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[89]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[90]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[91]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[92]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[93]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[94]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[95]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[96]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[97]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[98]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[99]          DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[100]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[101]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[102]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[103]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[104]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[105]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[106]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[107]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[108]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[109]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[110]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[111]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[112]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[113]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[114]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[115]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[116]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[117]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[118]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[119]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[120]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[121]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[122]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[123]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[124]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[125]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[126]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+text_out_reg[127]         DFF_E           PnomV180T025_STD_CELL_7RF
+                                                          52.684799 n
+u0                        aes_key_expand_128              42524.160250
+                                                                    h, n
+us00                      aes_sbox_19                     6698.496083
+                                                                    h
+us01                      aes_sbox_18                     6698.496083
+                                                                    h
+us02                      aes_sbox_17                     6698.496083
+                                                                    h
+us03                      aes_sbox_16                     6698.496083
+                                                                    h
+us10                      aes_sbox_15                     6698.496083
+                                                                    h
+us11                      aes_sbox_14                     6698.496083
+                                                                    h
+us12                      aes_sbox_13                     6698.496083
+                                                                    h
+us13                      aes_sbox_12                     6698.496083
+                                                                    h
+us20                      aes_sbox_11                     6698.496083
+                                                                    h
+us21                      aes_sbox_10                     6698.496083
+                                                                    h
+us22                      aes_sbox_9                      6698.496083
+                                                                    h
+us23                      aes_sbox_8                      6698.496083
+                                                                    h
+us30                      aes_sbox_7                      6698.496083
+                                                                    h
+us31                      aes_sbox_6                      6698.496083
+                                                                    h
+us32                      aes_sbox_5                      6698.496083
+                                                                    h
+us33                      aes_sbox_4                      6698.496083
+                                                                    h
+--------------------------------------------------------------------------------
+Total 1430 cells                                          197402.420400
+1

@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : aes_cipher_top
+Version: M-2016.12-SP1
+Date   : Wed Apr 12 10:37:45 2017
+****************************************
+
+Library(s) Used:
+
+    PnomV180T025_STD_CELL_7RF (File: /mnt/class_data/ecec571-f2015/IBM_CMOS7RF_p18u/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/synopsys/nom/PnomV180T025_STD_CELL_7RF.db)
+
+Number of ports:                         1000
+Number of nets:                         10359
+Number of cells:                         9522
+Number of combinational cells:           8970
+Number of sequential cells:               530
+Number of macros/black boxes:               0
+Number of buf/inv:                       1391
+Number of references:                      39
+
+Combinational area:             169479.476827
+Buf/Inv area:                    15726.413317
+Noncombinational area:           27922.943573
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                197402.420400
+Total area:                 undefined
+1

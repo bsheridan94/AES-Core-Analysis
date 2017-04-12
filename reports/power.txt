@@ -1,0 +1,76 @@
+Warning: A negative leakage value was found on cells in the library.  Leakage values in this report are invalid.  Please correct the leakage characterization of your library. (PWR-863)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : aes_cipher_top
+Version: M-2016.12-SP1
+Date   : Wed Apr 12 10:37:45 2017
+****************************************
+
+
+Library(s) Used:
+
+    PnomV180T025_STD_CELL_7RF (File: /mnt/class_data/ecec571-f2015/IBM_CMOS7RF_p18u/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/synopsys/nom/PnomV180T025_STD_CELL_7RF.db)
+
+
+Operating Conditions: PnomV180T025_STD_CELL_7RF   Library: PnomV180T025_STD_CELL_7RF
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+aes_cipher_top         450KCELLS_5MZC4P  PnomV180T025_STD_CELL_7RF
+aes_key_expand_128     45KCELLS_5MZC4P   PnomV180T025_STD_CELL_7RF
+aes_sbox_19            9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_rcon               2KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_0             9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_1             9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_2             9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_3             9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_4             9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_5             9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_6             9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_7             9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_8             9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_9             9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_10            9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_11            9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_12            9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_13            9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_14            9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_15            9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_16            9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_17            9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+aes_sbox_18            9KCELLS_5MZC4P    PnomV180T025_STD_CELL_7RF
+
+
+Global Operating Voltage = 1.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =   4.4633 mW   (34%)
+  Net Switching Power  =   8.5266 mW   (66%)
+                         ---------
+Total Dynamic Power    =  12.9899 mW  (100%)
+
+Cell Leakage Power     =   1.3482 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.8311            1.3305          397.1704            2.1620  (  16.64%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      3.6322            7.1961          950.9974           10.8293  (  83.36%)
+--------------------------------------------------------------------------------------------------
+Total              4.4633 mW         8.5266 mW     1.3482e+03 nW        12.9912 mW
+1
