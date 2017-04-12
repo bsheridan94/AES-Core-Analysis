@@ -1,0 +1,5 @@
+set file_lib "/mnt/class_data/ecec571-f2015/IBM_CMOS7RF_p18u/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/synopsys/"
+set search_path "$search_path $file_lib/nom"
+set synthetic_library "dw_foundation.sldb"
+set target_library "PnomV180T025_STD_CELL_7RF.db"
+set link_library "* $target_library $synthetic_library"
