@@ -4,7 +4,7 @@ Information: Updating design information... (UID-85)
 Report : design
 Design : aes_cipher_top
 Version: M-2016.12-SP1
-Date   : Wed Apr 12 10:37:45 2017
+Date   : Wed Apr 12 11:09:27 2017
 ****************************************
 
 Design allows ideal nets on clock nets.
